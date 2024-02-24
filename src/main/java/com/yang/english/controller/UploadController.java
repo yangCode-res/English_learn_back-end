@@ -29,11 +29,11 @@ import java.util.UUID;
 @RequestMapping(value="/upload")
 public class UploadController {
 
-    private String accessKey ="AKID5z0xiIk5QxTvQsCSZmuz0thO0VxKZjru";
-    private String secretKey="30vlVFxfL5nS1TmEap1AEC6ypbbaPCCA";
-    private String bucket="ap-nanjing";
-    private String bucketName="english-1309979517";
-    private String path="https://english-1309979517.cos.ap-nanjing.myqcloud.com";
+    private String accessKey ="";
+    private String secretKey="";
+    private String bucket="";
+    private String bucketName="";
+    private String path="";
     private String qianzui="avatar";
 
     @RequestMapping(value = "/tengxun", method = RequestMethod.POST)
