@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "spring.tengxun",
+      "type": "java.lang.String",
+      "description": "Description for spring.tengxun."
+    }
+  ]
+}
